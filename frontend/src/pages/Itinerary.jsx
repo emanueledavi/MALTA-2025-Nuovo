@@ -10,7 +10,7 @@ const Itinerary = () => {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Malta Itinerary</h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Your carefully planned 4-day adventure through Malta's most spectacular destinations
+          Your carefully planned 6-day adventure through Malta's most spectacular destinations
         </p>
       </div>
 
