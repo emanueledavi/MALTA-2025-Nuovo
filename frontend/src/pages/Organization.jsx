@@ -222,24 +222,7 @@ const Organization = () => {
 
         {/* Packing Section */}
         <TabsContent value="packing">
-          <Card className="border-amber-200">
-            <CardHeader className="bg-amber-50">
-              <div className="flex items-center space-x-2">
-                <Package className="w-5 h-5 text-amber-600" />
-                <CardTitle>What to Pack</CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent className="p-6">
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {packingList.map((item, index) => (
-                  <div key={index} className="flex items-center space-x-3 p-3 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors">
-                    <div className="bg-amber-500 rounded-full w-2 h-2"></div>
-                    <span className="text-gray-700">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
+          <PackingSection />
         </TabsContent>
 
         {/* Shopping Section */}
