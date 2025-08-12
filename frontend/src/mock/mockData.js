@@ -67,65 +67,103 @@ export const sampleItinerary = [
   {
     day: 1,
     title: "Arrival & Valletta Exploration",
-    description: "Land in Malta and explore the historic capital city of Valletta",
+    description: "Arrive in Malta and explore the historic capital city",
     activities: [
       "Arrive at Malta International Airport",
       "Check into accommodation",
       "Explore Upper Barrakka Gardens",
       "Visit St. John's Co-Cathedral",
-      "Walk through Republic Street"
+      "Walk through Republic Street",
+      "Evening dinner in Valletta"
     ],
     photos: [
-      "https://images.unsplash.com/photo-1566073771259-6a8506862ae3?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600&h=400&fit=crop"
+      "https://images.pexels.com/photos/33362889/pexels-photo-33362889.jpeg?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1668964287220-6bfa70f2e955?w=600&h=400&fit=crop"
     ]
   },
   {
     day: 2,
     title: "Mdina & Rabat Discovery",
-    description: "Explore the ancient silent city and surrounding historical sites",
+    description: "Explore the ancient silent city and surrounding areas",
     activities: [
       "Morning trip to Mdina",
-      "Walk through the Silent City",
+      "Walk through the medieval streets",
       "Visit St. Paul's Cathedral",
-      "Explore Rabat catacombs",
-      "Traditional lunch at local restaurant"
+      "Explore Rabat and catacombs",
+      "Traditional Maltese lunch",
+      "Return to accommodation"
     ],
     photos: [
-      "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop"
+      "https://images.pexels.com/photos/32390688/pexels-photo-32390688.jpeg?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1674393371426-df5dbfdce43c?w=600&h=400&fit=crop"
     ]
   },
   {
     day: 3,
     title: "Blue Lagoon & Comino Adventure",
-    description: "Day trip to the stunning Blue Lagoon for swimming and relaxation",
+    description: "Full day at Malta's most famous lagoon",
     activities: [
-      "Ferry to Comino Island",
+      "Early ferry to Comino Island",
       "Swimming at Blue Lagoon",
       "Snorkeling and water activities",
+      "Beach relaxation and sunbathing",
       "Explore Comino's coastal walks",
-      "Return to Malta mainland"
+      "Return ferry to Malta"
     ],
     photos: [
-      "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1580837119756-563d608dd119?w=600&h=400&fit=crop"
+      "https://images.unsplash.com/photo-1684158901974-571e4c7abe3e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1684160053636-147f7f595bd3?w=600&h=400&fit=crop"
     ]
   },
   {
     day: 4,
     title: "Gozo Island Exploration",
-    description: "Discover Malta's sister island with its unique charm and attractions",
+    description: "Discover Malta's sister island with unique attractions",
     activities: [
       "Ferry to Gozo Island",
       "Visit Victoria Citadel",
-      "Explore Dwejra Bay",
-      "Traditional Gozo lunch",
-      "Visit local craft shops"
+      "Explore Dwejra Bay area",
+      "Visit Azure Window ruins site",
+      "Traditional Gozitan lunch",
+      "Browse local craft shops"
     ],
     photos: [
-      "https://images.unsplash.com/photo-1580837119756-563d608dd119?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop"
+      "https://images.pexels.com/photos/13945208/pexels-photo-13945208.jpeg?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1657181397580-114e1bb97e0e?w=600&h=400&fit=crop"
+    ]
+  },
+  {
+    day: 5,
+    title: "Southern Malta & Temples",
+    description: "Explore prehistoric temples and southern coastline",
+    activities: [
+      "Visit Ħaġar Qim Temples",
+      "Explore Mnajdra Temples",
+      "Blue Grotto boat trip",
+      "Marsaxlokk fishing village",
+      "Fresh seafood lunch",
+      "Shopping for souvenirs"
+    ],
+    photos: [
+      "https://images.unsplash.com/photo-1668964287220-6bfa70f2e955?w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/33362889/pexels-photo-33362889.jpeg?w=600&h=400&fit=crop"
+    ]
+  },
+  {
+    day: 6,
+    title: "Final Day & Departure",
+    description: "Last-minute exploration and departure preparations",
+    activities: [
+      "Visit any missed attractions",
+      "Final shopping in Sliema",
+      "Beach time or relaxation",
+      "Pack and check out",
+      "Transfer to airport",
+      "Departure from Malta"
+    ],
+    photos: [
+      "https://images.unsplash.com/photo-1674393371426-df5dbfdce43c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1684158901974-571e4c7abe3e?w=600&h=400&fit=crop"
     ]
   }
 ];
