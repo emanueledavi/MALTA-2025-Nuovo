@@ -11,6 +11,7 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { useToast } from '../hooks/use-toast';
+import { transportationTypes } from '../mock/mockData';
 import PackingSection from '../components/PackingSection';
 
 const Organization = () => {
