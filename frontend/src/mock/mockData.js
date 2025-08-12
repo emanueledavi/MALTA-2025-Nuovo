@@ -27,38 +27,38 @@ export const maltaNews = [
 export const maltaPhotos = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=800&h=600&fit=crop",
+    url: "https://images.unsplash.com/photo-1684158901974-571e4c7abe3e?w=800&h=600&fit=crop",
     caption: "Blue Lagoon, Comino",
     location: "Comino Island"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1566073771259-6a8506862ae3?w=800&h=600&fit=crop",
+    url: "https://images.pexels.com/photos/33362889/pexels-photo-33362889.jpeg?w=800&h=600&fit=crop",
     caption: "Valletta Waterfront",
     location: "Valletta"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&h=600&fit=crop",
-    caption: "Mdina Silent City",
+    url: "https://images.pexels.com/photos/32390688/pexels-photo-32390688.jpeg?w=800&h=600&fit=crop",
+    caption: "Mdina Medieval Streets",
     location: "Mdina"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    caption: "Golden Bay Beach",
-    location: "Golden Bay"
+    url: "https://images.unsplash.com/photo-1657181397580-114e1bb97e0e?w=800&h=600&fit=crop",
+    caption: "Traditional Maltese Architecture",
+    location: "Malta"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1580837119756-563d608dd119?w=800&h=600&fit=crop",
-    caption: "Gozo Countryside",
-    location: "Gozo Island"
+    url: "https://images.unsplash.com/photo-1674393371426-df5dbfdce43c?w=800&h=600&fit=crop",
+    caption: "Mdina at Sunset",
+    location: "Mdina"
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800&h=600&fit=crop",
-    caption: "St. John's Co-Cathedral",
+    url: "https://images.unsplash.com/photo-1668964287220-6bfa70f2e955?w=800&h=600&fit=crop",
+    caption: "Valletta Architecture",
     location: "Valletta"
   }
 ];
