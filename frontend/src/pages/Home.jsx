@@ -7,8 +7,9 @@ import { maltaNews, maltaPhotos } from '../mock/mockData';
 const Home = () => {
   const [timeLeft, setTimeLeft] = useState({});
   
-  // Mock trip date - you can modify this
-  const tripDate = new Date('2025-03-15T10:00:00');
+  // Trip dates - departure and return
+  const tripDate = new Date('2025-08-09T10:00:00');
+  const returnDate = new Date('2025-08-14T20:00:00');
 
   useEffect(() => {
     const timer = setInterval(() => {
