@@ -90,13 +90,13 @@ const Itinerary = () => {
       <div className="mt-12 text-center bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8">
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Ready for Your Adventure?</h3>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          This itinerary covers Malta's highlights while allowing flexibility for spontaneous discoveries. 
+          This itinerary covers Malta's highlights over 6 amazing days while allowing flexibility for spontaneous discoveries. 
           Each day offers a perfect blend of culture, history, and natural beauty.
         </p>
         <div className="flex items-center justify-center mt-6 space-x-6">
           <div className="flex items-center text-amber-700">
             <MapPin className="w-5 h-5 mr-2" />
-            <span className="font-medium">4 Days</span>
+            <span className="font-medium">6 Days</span>
           </div>
           <div className="flex items-center text-amber-700">
             <Camera className="w-5 h-5 mr-2" />
