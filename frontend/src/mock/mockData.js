@@ -206,19 +206,147 @@ export const transportationTypes = [
   }
 ];
 
+export const packingCategories = [
+  {
+    category: "Clothing",
+    subcategories: [
+      {
+        title: "For the Day",
+        items: [
+          { name: "Light T-shirts and tops (cotton, linen)", quantity: 1, packed: false },
+          { name: "Shorts, skirts, summer dresses", quantity: 1, packed: false },
+          { name: "Swimsuits (at least 2)", quantity: 2, packed: false },
+          { name: "Beach cover-up or sarong", quantity: 1, packed: false },
+          { name: "Sun hat or cap", quantity: 1, packed: false },
+          { name: "Sunglasses", quantity: 1, packed: false }
+        ]
+      },
+      {
+        title: "For the Evening",
+        items: [
+          { name: "A light sweater or sweatshirt (for air conditioning or cooler evenings)", quantity: 1, packed: false },
+          { name: "Light long pants or jeans", quantity: 1, packed: false },
+          { name: "More elegant shirts or dresses (if you plan on going out in the evening)", quantity: 1, packed: false }
+        ]
+      },
+      {
+        title: "Footwear",
+        items: [
+          { name: "Sandals or flip-flops", quantity: 1, packed: false },
+          { name: "Comfortable walking shoes (sneakers or trainers)", quantity: 1, packed: false },
+          { name: "Dress shoes (optional, for the evening)", quantity: 1, packed: false },
+          { name: "Water shoes (recommended for some rocky beaches)", quantity: 1, packed: false }
+        ]
+      }
+    ]
+  },
+  {
+    category: "Essential Documents",
+    subcategories: [
+      {
+        title: "Travel Documents",
+        items: [
+          { name: "Valid ID card for travel abroad or Passport", quantity: 1, packed: false },
+          { name: "Flight/ferry tickets (paper or digital)", quantity: 1, packed: false },
+          { name: "Accommodation booking confirmation", quantity: 1, packed: false },
+          { name: "Driver's license (if you plan to rent a car)", quantity: 1, packed: false },
+          { name: "Travel insurance (if purchased)", quantity: 1, packed: false },
+          { name: "European Health Insurance Card (EHIC)", quantity: 1, packed: false }
+        ]
+      },
+      {
+        title: "Copies and Digitalization",
+        items: [
+          { name: "Photocopies of all important documents (to be kept separate from the originals)", quantity: 1, packed: false },
+          { name: "Digital scans of documents (on the cloud or email)", quantity: 1, packed: false }
+        ]
+      }
+    ]
+  },
+  {
+    category: "Health and Hygiene",
+    subcategories: [
+      {
+        title: "Medication and First Aid",
+        items: [
+          { name: "Personal medication (with a prescription if necessary)", quantity: 1, packed: false },
+          { name: "Painkillers/Anti-inflammatories", quantity: 1, packed: false },
+          { name: "Band-aids, disinfectant", quantity: 1, packed: false },
+          { name: "Mosquito repellent", quantity: 1, packed: false },
+          { name: "High-protection sunscreen", quantity: 1, packed: false },
+          { name: "After-sun lotion", quantity: 1, packed: false },
+          { name: "Medication for stomach ache/diarrhea (tap water in Malta has a specific taste and is not recommended for drinking)", quantity: 1, packed: false }
+        ]
+      },
+      {
+        title: "Personal Hygiene",
+        items: [
+          { name: "Toothbrush, toothpaste, dental floss", quantity: 1, packed: false },
+          { name: "Shampoo, conditioner, body wash (travel size)", quantity: 1, packed: false },
+          { name: "Deodorant", quantity: 1, packed: false },
+          { name: "Brush/comb", quantity: 1, packed: false },
+          { name: "Moisturizer", quantity: 1, packed: false },
+          { name: "Wet wipes", quantity: 1, packed: false }
+        ]
+      }
+    ]
+  },
+  {
+    category: "Electronics",
+    subcategories: [
+      {
+        title: "Devices",
+        items: [
+          { name: "Smartphone and charger", quantity: 1, packed: false },
+          { name: "Power bank (portable charger)", quantity: 1, packed: false },
+          { name: "Universal adapter for Type G plugs (UK/Malta standard)", quantity: 1, packed: false },
+          { name: "Headphones", quantity: 1, packed: false },
+          { name: "Camera and extra memory cards (if you use a dedicated camera)", quantity: 1, packed: false }
+        ]
+      }
+    ]
+  },
+  {
+    category: "Miscellaneous and Utilities",
+    subcategories: [
+      {
+        title: "Utilities",
+        items: [
+          { name: "Small backpack or cross-body bag for day trips", quantity: 1, packed: false },
+          { name: "Reusable water bottle", quantity: 1, packed: false },
+          { name: "Small umbrella or rain jacket (for sudden downpours)", quantity: 1, packed: false },
+          { name: "Book/e-reader or magazines", quantity: 1, packed: false },
+          { name: "Notebook and pen", quantity: 1, packed: false },
+          { name: "Bags for dirty laundry", quantity: 1, packed: false },
+          { name: "Suitcase lock (if needed)", quantity: 1, packed: false }
+        ]
+      },
+      {
+        title: "Money",
+        items: [
+          { name: "Cash (Euros)", quantity: 1, packed: false },
+          { name: "Credit/debit cards", quantity: 1, packed: false },
+          { name: "Small money belt to wear under clothes (for security)", quantity: 1, packed: false }
+        ]
+      }
+    ]
+  }
+];
+
 export const packingList = [
-  "Passport and travel documents",
-  "Sunscreen (high SPF)",
+  "Light T-shirts and tops (cotton, linen)",
+  "Shorts, skirts, summer dresses",
+  "Swimsuits (at least 2)",
+  "Beach cover-up or sarong",
+  "Sun hat or cap",
+  "Sunglasses",
+  "Light sweater or sweatshirt",
+  "Light long pants or jeans",
+  "Elegant shirts or dresses",
+  "Sandals or flip-flops",
   "Comfortable walking shoes",
-  "Swimwear and beach towel",
-  "Light summer clothing",
-  "Hat and sunglasses",
-  "Camera and charger",
-  "Medications",
-  "Snorkeling gear (optional)",
-  "Light jacket for evenings",
-  "Power adapter (UK type G)",
-  "Reusable water bottle"
+  "Dress shoes (optional)",
+  "Water shoes"
 ];
 
 export const attractions = [
