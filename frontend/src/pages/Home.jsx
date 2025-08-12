@@ -41,7 +41,7 @@ const Home = () => {
             </h1>
             <p className="text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
               Discover the enchanting Mediterranean islands of Malta, where ancient history meets crystal-clear waters,
-              and every corner tells a story of knights, culture, and natural beauty.
+              and every corner tells a story of knights, culture, and natural beauty. Your 6-day adventure awaits!
             </p>
             
             {/* Countdown Timer */}
