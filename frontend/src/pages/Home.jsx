@@ -60,7 +60,7 @@ const Home = () => {
               </div>
               <div className="mt-4 flex items-center justify-center text-sm">
                 <Calendar className="w-4 h-4 mr-2" />
-                <span>Departure: March 15, 2025</span>
+                <span>Departure: August 9, 2025 | Return: August 14, 2025</span>
               </div>
             </div>
           </div>
